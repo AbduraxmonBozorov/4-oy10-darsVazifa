@@ -109,3 +109,63 @@
 //     return a < 0 ? true : false
 // });
 // console.log(res);
+
+// 2-masala
+// let arr=[1, 2, 'assalomu aleykum',  3,  'hello'];
+// let res=arr.some(item=>{
+//     if(typeof item == 'string' && item.length >= 10){
+//         return true;
+//     }
+//     else{
+//         return false;
+//     }
+// });
+// console.log(res);
+
+// 3-masala
+// let arr = [1, 2, 3, -4, 5];
+// let res=arr.every(item=>{
+//     if(item>0){
+//         return true;
+//     }else{
+//         return false;
+//     }
+// })
+// console.log(res);
+
+// 4-masala
+// let arr=['SALOM', 'HELLO', 'ByE'];
+// let res=arr.every(item=>{
+//     if(typeof item=='string' && item==item.toUpperCase()){
+//         return true;
+//     }else{
+//         return false;
+//     }
+// });
+// console.log(res);
+
+// Umumiy
+// 1-masala
+// let arr=[1, 2,  3, 'salom', true];
+// let item=true;
+// let res=arr.includes(item);
+// console.log(res);
+
+// 2-masala
+// let arr=[1, 2,  3, 'salom', true];
+// let item=true;
+// let res=arr.indexOf(item);
+// console.log(res);
+
+// 3-masala
+// let arr=[1, 2,  3, 'salom', true, 3];
+// let item=3;
+// let res=arr.lastIndexOf(item);
+// console.log(res);
+
+// 4-masala
+// let arr = [1, 2, 15, 8, 17, 9, 22];
+// let item = arr.find((item) => {
+//   return item > 10;
+// });
+// console.log(item);
