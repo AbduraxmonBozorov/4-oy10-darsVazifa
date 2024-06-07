@@ -69,7 +69,43 @@
 // });
 // console.log(users1);
 
-
-
 // map metodi yordamida ishlanadigan masalalar.
 // 1-masala
+// let arr=[1,2,3,4,5];
+// let arr1=arr.map((a) => {
+//     return a**2;
+// })
+// console.log(arr1);
+
+// 2-masala
+// let arr=[1,2,3,4,5];
+// let arr1=arr.map((a) => {
+//     return a+5;
+// })
+// console.log(arr1);
+
+// 3-masala
+// let arr = [1, 2, "salom", "hello", "xayr", "bye"];
+// let arr1 = arr.filter((a) => {
+//   if (typeof a == "string") {
+//     a = a.toUpperCase();
+//     console.log(a);
+//     return a;
+//   }
+// });
+// console.log(arr1);
+
+// 4-masala
+// let arr = [1, 16, 4, 9, 64, 25];
+// let arr1 = arr.map((item) => {
+//   return Math.sqrt(item);
+// });
+// console.log(arr1);
+
+// some/every metodi yordamida ishlanadigan masalalar.
+// 1-masala
+// let arr = [1, 2, 3, 4, -5];
+// let res = arr.some(function(a){
+//     return a < 0 ? true : false
+// });
+// console.log(res);
