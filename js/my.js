@@ -169,3 +169,81 @@
 //   return item > 10;
 // });
 // console.log(item);
+
+// 5-masala
+// let arr = [1, 2, 15, 8, 17, 9, 22];
+// let item = arr.findIndex((item) => {
+//   return item > 10;
+// });
+// console.log(item);
+
+// 6-masala
+// let arr = [1, 2, 15, 8, 17, 9, 22];
+// let item = arr.findLastIndex((item) => {
+//   return item > 10;
+// });
+// console.log(item);
+
+// 7-masala
+// let arr = [1, 2, 15, 8, 17, 9, 7];
+// let item = arr.findLastIndex((item) => {
+//   return item > 10;
+// });
+// console.log(item);
+
+// 8-masala
+// let arr = [1, 2, 15, 8, 17, 9, 7];
+// let newArr=arr.reverse();
+// console.log(newArr);
+
+// 9-masala
+// let arr = [1, 2, 15, 8, 17, 9, 7];
+// let newArr=arr.sort(function(a,b){
+//     return a-b;
+// });
+// console.log(newArr);
+
+// 10-masala
+// let arr = [1, 2, 15, 8, 17, 9, 7];
+// arr.forEach(item=>{
+//     console.log(item*2);
+// })
+
+// 11-masala
+// let arr = [1, -2, 15, 8, -17, 9, -7];
+// let newArr = arr.filter((item) => {
+//   return item > 0;
+// });
+// console.log(newArr);
+
+// 12-masala
+// let arr = [1, -2, 15, 8, -17, 9, -7];
+// let newArr = arr.map((item) => {
+//   return item ** 2;
+// });
+// console.log(newArr);
+
+// 13-masala
+// let arr = [1, -2, 15, 8, -17, 9, -7];
+// let res=arr.some(item=>{
+//     return item<0 ? true : false;
+// })
+// console.log(res);
+
+// 14-masala
+// let arr = [1, -2, 15, 8, -17, 9, -7];
+// let res=arr.every(item=>{
+//     return item>0 ? true : false;
+// })
+// console.log(res);
+
+// 15-masala
+// let arr = [1, -2, 15, 8, -17, 9, -7];
+// let newArr = arr.map((item) => {
+//   return item * 3;
+// });
+// // console.log(newArr);
+// let newArr2 = newArr.filter((item) => {
+//   return item > 10;
+// });
+// console.log(newArr2);
